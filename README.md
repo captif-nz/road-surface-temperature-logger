@@ -1,1 +1,1 @@
-# pycom-weather-station
+# pycom-weather-station-pcb
