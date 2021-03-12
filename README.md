@@ -14,7 +14,7 @@ The rain gauge, anemometer and light sensors provide additional information abou
 
 ## Parts list
 
-### Custom parts
+### Custom parts (see sections below)
 
 - PCB
 - Enclosure mount
@@ -51,6 +51,16 @@ The rain gauge, anemometer and light sensors provide additional information abou
 ### Mounting system
 - Pole and socket
 - U-bolts
+
+## PCB
+
+<img src="pcb.png" width="400">
+
+The printed circuit board manufacturing files can be found in [assembley_files.zip](assembly_files.zip). There are a number of low-cost options available for getting these manufactured.
+
+## Enclosure mounting
+
+The enclosure mounting plate is designed for the enclosure, solar panel and PCB listed in the parts section above. It should be 3D printed out of ABS plastic.
 
 ## Licence
 
