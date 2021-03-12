@@ -1,16 +1,8 @@
 # Road surface temperature logger
 
-The road surface temperature logger was initially designed to be a low-cost logger for monitoring road surface temperatures to support various surfacing trials. Several improvements have been made to the original design including:
+The road surface temperature logger has been designed as a low-cost unit to support various road surfacing trials. The logger utilises a Pycom microcontroller with screw terminals for upto four DS18B20 temperature probes. Inputs are also provided for a rain gauge, anemometer and light sensor, if needed.
 
-- Using the DS18B20 one-wire serial temperature probe
-- Moving to a PyCom microcontroller for easier development of the onboard software (in Python)
-- Solar panel for long-term unattended operation
-- Options for LoRa telemetry in addition to cellular
-- Options for a rain gauge, anemometer and light sensor
-
-The logger has screw terminals for up to four DS18B20 temperature probes. The intention is than one probe is used to monitor the air temperature while the three remaining probes are installed in the road surface.
-
-The rain gauge, anemometer and light sensors provide additional information about the prevailing weather conditions.
+The Pycom microcontroller provides for easier development of the onboard software (in Python), along with built-in cellular and/or LoRa connectivity. 
 
 ## Parts list
 
@@ -20,7 +12,7 @@ The rain gauge, anemometer and light sensors provide additional information abou
 - Enclosure mount
 
 ### PCB components
-- [PyCom FiPy](https://pycom.io/product/fipy/) or [LoPy4](https://pycom.io/product/lopy4) (no cellular)
+- [Pycom FiPy](https://pycom.io/product/fipy/) or [LoPy4](https://pycom.io/product/lopy4) (no cellular)
 - [Lithium battery solar charge controller](https://www.adafruit.com/product/390)
 - 2x [JST-PH socket](https://nz.rs-online.com/web/p/products/8201422/)
 - 2x [Tactile switch](https://nz.rs-online.com/web/p/products/4791413/)
@@ -58,7 +50,7 @@ The rain gauge, anemometer and light sensors provide additional information abou
 
 The printed circuit board manufacturing files can be found in [assembley_files.zip](assembly_files.zip). There are a number of low-cost options available for getting these manufactured.
 
-## Enclosure mounting
+## Enclosure mount
 
 The enclosure mounting plate is designed for the enclosure, solar panel and PCB listed in the parts section above. It should be 3D printed out of ABS plastic.
 
