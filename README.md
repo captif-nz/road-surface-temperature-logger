@@ -10,7 +10,7 @@ The road surface temperature logger was initially designed to be a low-cost logg
 
 The logger has screw terminals for up to four DS18B20 temperature probes. The intention is than one probe is used to monitor the air temperature while the three remaining probes are installed in the road surface.
 
-The rain gauge, anemometer and light sensors provide additional information about the prevaling weather conditions.
+The rain gauge, anemometer and light sensors provide additional information about the prevailing weather conditions.
 
 ## Parts list
 
