@@ -2,7 +2,7 @@
 
 The road surface temperature logger has been designed as a low-cost unit to support various road surfacing trials. The logger utilises a Pycom microcontroller with screw terminals for upto four DS18B20 temperature probes. Inputs are also provided for a rain gauge, anemometer and light sensor, if needed.
 
-The Pycom microcontroller provides for easier development of the onboard software (in Python), along with built-in cellular and/or LoRa connectivity. 
+The Pycom microcontroller provides for easier development of the onboard software (in Python), along with built-in cellular and/or LoRa/SigFox connectivity. 
 
 ## Parts list
 
