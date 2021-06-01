@@ -1,2 +1,4 @@
 *.b#*
 *.s#*
+/assembly_files
+/enclosure_mount
