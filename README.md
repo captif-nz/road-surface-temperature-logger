@@ -52,7 +52,7 @@ The printed circuit board manufacturing files can be found in [assembley_files.z
 
 ## Enclosure mount
 
-The enclosure mounting plate is designed for the enclosure, solar panel and PCB listed in the parts section above. It should be 3D printed out of ABS plastic.
+Models of the enclosure mounting plate and solar panel frame can be found in [enclosure_mount.zip](enclosure_mount.zip). These are designed for the enclosure, solar panel and PCB listed in the parts section above. The enclosure mount parts should be 3D printed out of ABS plastic.
 
 ## Licence
 
